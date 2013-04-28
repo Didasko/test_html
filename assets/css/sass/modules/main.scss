@@ -1,0 +1,13 @@
+.top-img {
+	max-width: 200px;
+	height: auto;
+	position: relative;
+	float: right;
+}
+.float-comment {
+	position: relative;
+	float: left;
+}
+div.float-comment + br {
+	clear: both;
+}

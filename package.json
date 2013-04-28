@@ -1,0 +1,20 @@
+{
+  "name": "grunt-contrib",
+  "description": "Website builder",
+  "version": "0.3.0",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-includes": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-connect": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-watch": "~0.3.1"
+  }
+}

@@ -1,0 +1,246 @@
+/* Reset.less
+ * An adapted version of the adapted version of eric mayers reset for Twitter's Bootstrap
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* line 9, ../../sass/modules/config/reset.scss */
+/* line 5, sass/modules/reset.scss */
+html, body {
+  background: #FFFFFF;
+}
+
+/* line 10, ../../sass/modules/config/reset.scss */
+/* line 10, sass/modules/reset.scss */
+body, h1, h2, h3, h4, h5, h6, p, div, span, blockquote, pre, a, button, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+/* line 11, ../../sass/modules/config/reset.scss */
+/* line 18, sass/modules/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 12, ../../sass/modules/config/reset.scss */
+/* line 26, sass/modules/reset.scss */
+address, caption, cite, code, dfn, strong, th, var, optgroup {
+  font-style: inherit;
+}
+
+/* line 13, ../../sass/modules/config/reset.scss */
+/* line 31, sass/modules/reset.scss */
+del, ins {
+  text-decoration: none;
+}
+
+/* line 14, ../../sass/modules/config/reset.scss */
+/* line 36, sass/modules/reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 15, ../../sass/modules/config/reset.scss */
+/* line 41, sass/modules/reset.scss */
+abbr, acronym {
+  font-variant: normal;
+  cursor: help;
+  border-bottom: 1px dotted #444444;
+}
+
+/* line 15, ../../sass/modules/config/reset.scss */
+/* line 47, sass/modules/reset.scss */
+abbr:hover, acronym:hover {
+  cursor: help;
+}
+
+/* line 16, ../../sass/modules/config/reset.scss */
+/* line 52, sass/modules/reset.scss */
+sup, sub {
+  vertical-align: baseline;
+}
+
+/* line 17, ../../sass/modules/config/reset.scss */
+/* line 57, sass/modules/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 18, ../../sass/modules/config/reset.scss */
+/* line 62, sass/modules/reset.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 19, ../../sass/modules/config/reset.scss */
+/* line 67, sass/modules/reset.scss */
+p {
+  font-size: inherit;
+  line-height: 125%;
+  margin-bottom: 1em;
+}
+
+/* line 29, ../../sass/modules/config/reset.scss */
+/* line 74, sass/modules/reset.scss */
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 36, ../../sass/modules/config/reset.scss */
+/* line 82, sass/modules/reset.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 41, ../../sass/modules/config/reset.scss */
+/* line 88, sass/modules/reset.scss */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* line 57, ../../sass/modules/config/reset.scss */
+/* line 102, sass/modules/reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* line 66, ../../sass/modules/config/reset.scss */
+/* line 109, sass/modules/reset.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 75, ../../sass/modules/config/reset.scss */
+/* line 116, sass/modules/reset.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 83, ../../sass/modules/config/reset.scss */
+/* line 122, sass/modules/reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 89, ../../sass/modules/config/reset.scss */
+/* line 130, sass/modules/reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 92, ../../sass/modules/config/reset.scss */
+/* line 135, sass/modules/reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 99, ../../sass/modules/config/reset.scss */
+/* line 140, sass/modules/reset.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 112, ../../sass/modules/config/reset.scss */
+/* line 149, sass/modules/reset.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  font-family: inherit;
+}
+
+/* line 120, ../../sass/modules/config/reset.scss */
+/* line 159, sass/modules/reset.scss */
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* line 125, ../../sass/modules/config/reset.scss */
+/* line 166, sass/modules/reset.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 132, ../../sass/modules/config/reset.scss */
+/* line 175, sass/modules/reset.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 136, ../../sass/modules/config/reset.scss */
+/* line 181, sass/modules/reset.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 142, ../../sass/modules/config/reset.scss */
+/* line 189, sass/modules/reset.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 145, ../../sass/modules/config/reset.scss */
+/* line 194, sass/modules/reset.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 1, sass/modules/main.scss */
+.top-img {
+  max-width: 200px;
+  height: auto;
+  position: relative;
+  float: right;
+}
+
+/* line 7, sass/modules/main.scss */
+.float-comment {
+  position: relative;
+  float: left;
+}
+
+/* line 11, sass/modules/main.scss */
+div.float-comment + br {
+  clear: both;
+}
